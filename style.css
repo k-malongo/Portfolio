@@ -70,11 +70,10 @@ body {
     text-decoration: none;
     color: #fff;
 }
-.btn:hover {
-    background-color:#002ead;
-    transition: 0.7s;
+.btn:hover{
+    background-color: yellowgreen;
+    border: none;
 }
-
 /*about me */
 .aboutUs {
     display: flex;
@@ -93,7 +92,7 @@ body {
 }
 
 .aboutUs>.left>img {
-    width: 30vh;
+    width: 50vh;
 }
 
 .aboutUs>.right {

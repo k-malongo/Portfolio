@@ -1,10 +1,18 @@
-document.getElementById("logo").addEventListener("mouseover", mouseOver);
-document.getElementById("logo").addEventListener("mouseout", mouseOut);
+document.getElementById("about").style.color = "mediumslateblue	";
+document.getElementById("header").addEventListener("mouseover", mouseOver);
+document.getElementById("header").addEventListener("mouseout", mouseOut);
 
 function mouseOver() {
-  document.getElementById("logo").style.color = "red";
+  document.getElementById("header").style.color = "red";
 }
 
 function mouseOut() {
-  document.getElementById("logo").style.color = "black";
+  document.getElementById("header").style.color = "black";
 }
+const btn1 = document.getElementById('btn');
+
+btn1.addEventListener("click", function () {
+
+    btn1.style.backgroundColor = 'yellow'
+    
+    });
